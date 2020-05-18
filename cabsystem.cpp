@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 #include<string.h>
 using namespace std;
@@ -416,9 +415,6 @@ void user:: book_cab()
         }
 }
 }
-
-
-
 void user:: book_later()
 {
     char confirmation;
@@ -857,6 +853,5 @@ int main()
     fil.close();
     areas.clear();
     return 0;
-
 }
 
