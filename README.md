@@ -6,6 +6,7 @@ an effective manner.
 There will be two interfaces of the cab management server: -
 
 (i) User /customer Interface: It will give the customers the ability to enter their pickup and destination location and several other functionalities like:
+
 ● Apply coupons available with them.
 
 ● Rate the drivers based on the service provided.
@@ -13,11 +14,15 @@ There will be two interfaces of the cab management server: -
 ● Change or update the personal details.
 
 (ii) Cab Driver Interface: It will calculate the total price of each ride taken by a particular customer that the driver will receive.
+
 ● Calculate the total earning per day of each driver.
+
 ● Allow the drivers to update their current location so as to synchronize them with the locality tree.
+
 ● Cabs available in a locality will be ordered according to the rating given by each customer.
 
 Data Structures used:
+
 ● Tree – for making the classification of localities.
 
 ● Queue – customers will be inserted in the queue on clicking the ride now option.
