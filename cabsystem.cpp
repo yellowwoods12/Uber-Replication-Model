@@ -614,8 +614,8 @@ void admin:: add_cab()
         cout<<"Enter cab's total no. of booking with us till now: "<<endl;
         cin>>c.noofbookings;
         cin.clear();
-        c.id=((int)(c.cabno[5])*1000) + ((int)(c.cabno[6])*100) + ((int)(c.cabno[7])*10) + ((int)(c.cabno[8]));
-    ob[10]=c;
+        c.id=((c.cabno[5]-'0')*1000) + ((c.cabno[6]-'0')*100) + ((c.cabno[7]-'0')*10) + ((c.cabno[8]-'0'));
+    ob[noofcabs]=c;
     noofcabs+=1;
 }
 
@@ -854,4 +854,3 @@ int main()
     areas.clear();
     return 0;
 }
-
